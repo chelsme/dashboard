@@ -31,6 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var main = document.getElementById('main')
 
     for (const item of result) {
-        main.innerHTML += `<div style="border: 2px solid black; padding: 3px; margin: 5px;"><p>Icon: ${item["Expert"]}</p><p>Law Firm: ${item["Law Firm"]}</p><p>Due Date: ${item["Actual Due Date"]}</p><div>`
+        main.innerHTML += `<div style="border: 24px solid black; padding: 3px; margin: 5px;"><p>Icon: ${item["Expert"]}</p><p>Law Firm: ${item["Law Firm"]}</p><p>Due Date: ${item["Actual Due Date"]}</p><div>`
     }
 });
